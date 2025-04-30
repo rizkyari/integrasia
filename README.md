@@ -31,7 +31,6 @@ npm run dev
 | 7 | Create a function to sum all even numbers and display them | `src/utils/numberUtils.js` (`findEvenNumbers`, `sumEvenNumbers`) and `src/components/EvenNumberCounter.jsx` |
 | 8 | Create a function to determine if two strings are anagrams | `src/utils/stringUtils.js` (`isAnagram`) and `src/components/AnagramChecker.jsx` |
 | 9 | Format JSON from `case.json` to `expectation.json` structure | `src/utils/jsonFormatterUtils.js` (`formatJSON`) and `src/components/JSONFormatter.jsx` |
-ter.jsx
 
 ## 📦 Folder Structure
 
