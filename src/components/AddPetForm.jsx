@@ -77,11 +77,12 @@ const AddPetForm = ({onAdd}) => {
                     name="favorite"
                     checked={newPet.favorite}
                     onChange={handleChange}
-                    className="mt-2"
+                    className="cursor-pointer me-2"
                     />
+                    <div>Jadikan hewan favorit</div>
                 </div>
 
-                <button type="submit" className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+                <button type="submit" className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 border border-blue-800">
                     Tambah
                 </button>
             </div>

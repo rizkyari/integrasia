@@ -32,7 +32,7 @@ const AnagramChecker = ({ onCheck }) => {
                 className="border p-2 w-full rounded"
                 required
                 />
-                <button type="submit" className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">
+                <button type="submit" className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 border border-indigo-800">
                     Cek
                 </button>
             </form>
@@ -40,9 +40,9 @@ const AnagramChecker = ({ onCheck }) => {
             {result !== null && (
                 <div className="mt-4 text-center font-semibold">
                     {result ? (
-                        <span className="text-green-600">Anagram ✅</span>
+                        <span className="text-green-600">Anagram</span>
                     ) : (
-                        <span className="text-red-600">Bukan Anagram ❌</span>
+                        <span className="text-red-600">Bukan Anagram</span>
                     )}
                 </div>
             )}
