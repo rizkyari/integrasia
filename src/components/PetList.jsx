@@ -2,11 +2,11 @@ import React from "react";
 
 const PetList = ({pets}) => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-10">
             {pets.map((pet, index) => (
                 <div
                 key={index}
-                className="bg-white rounded-lg shadow p-4 flex flex-col justify-between"
+                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-4 flex flex-col justify-between"
                 >
                     <div>
                         <h2 className="text-lg font-bold">{pet.name}</h2>
